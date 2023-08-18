@@ -1,0 +1,14 @@
+.swiper {
+    width: 600px;
+    height: 300px;
+}
+
+swiper-container {
+    width: 600px;
+    height: 300px;
+}
+
+img{
+    height: 300px;
+    justify-self: center;
+}

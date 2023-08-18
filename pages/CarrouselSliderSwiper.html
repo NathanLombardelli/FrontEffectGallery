@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="../css/CarrouselSliderSwiper.css">
+</head>
+<body>
+
+<swiper-container navigation-nextEl=".swiper-button-next" navigation-prevEl=".swiper-button-prev" slides-per-view="1"  speed="500" loop="true" css-mode="true">
+    <div class="swiper-button-prev"></div>
+    <swiper-slide><img src="../images/img1.jpg"/></swiper-slide>
+    <swiper-slide><img src="../images/img2.jpg"/></swiper-slide>
+    <swiper-slide><img src="../images/img3.jpg"/></swiper-slide>
+    <div class="swiper-button-next"></div>
+</swiper-container>
+
+<swiper-container slides-per-view="1" direction="vertical"  speed="50" loop="true" css-mode="true">
+    <swiper-slide><img src="../images/img1.jpg"/></swiper-slide>
+    <swiper-slide><img src="../images/img2.jpg"/></swiper-slide>
+    <swiper-slide><img src="../images/img3.jpg"/></swiper-slide>
+</swiper-container>
+
+<script type="module">
+    // import function to register Swiper custom elements
+    import { register } from 'swiper/element/bundle';
+    // register Swiper custom elements
+    register();
+</script>
+</body>
+</html>
