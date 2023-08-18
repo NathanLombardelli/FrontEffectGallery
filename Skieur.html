@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test perso skieur</title>
+    <link rel="stylesheet" href="css/SkieurStyle.css">
+</head>
+<body>
+<header>
+    <a href="index.html">Back</a>
+</header>
+    <section>
+
+        <img src="images/skieur.png" id="skieur">
+        <span class="skewed"/>
+
+    </section>
+
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
+
+<script>
+    gsap.to("#skieur",{
+        scrollTrigger : {
+            scrub:0.5,
+        },
+        x : -1500,
+        y: 275
+    });
+</script>
+
+</html>

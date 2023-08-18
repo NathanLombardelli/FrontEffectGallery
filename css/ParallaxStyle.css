@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+section .content{
+
+    text-align: center;
+
+}
+
+section .content h2{
+    font-size: 24vw;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: 1em;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;/*rend le text transparent*/
+    background-attachment: fixed; /*ne fonctionne pas sur firefox*/
+}
+
+section:nth-child(2) .content h2{ /*commence a 2 car le header = 1 ??*/
+    background-image: url("https://i.pinimg.com/originals/38/58/0d/38580d5c94e6c60d8b2ad24db887ee2c.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+section:nth-child(3) .content h2{
+    background-image: url("https://wi.wallpapertip.com/wsimgs/43-438745_free-ocean-background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+section:nth-child(4) .content h2{
+    background-image: url("https://images.toucharger.com/img/graphiques/fonds-d-ecran/nature-paysages/glacier/glacier.74758.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+section:nth-child(5) .content h2{
+    background-image: url("https://i.pinimg.com/originals/28/01/dc/2801dcfee51f4748c7118d2faba46b59.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+
+section .content p{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section .content a{
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #000;
+    text-decoration: none;
+    color: #000;
+    margin-top: 20px;
+}

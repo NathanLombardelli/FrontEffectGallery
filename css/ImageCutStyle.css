@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background: #fff;
+}
+
+section{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: url("../images/bg.jpg"), linear-gradient(230deg,#f533d4,#2461bb);
+    background-blend-mode: luminosity;
+    background-size: cover;
+}
+
+section a {
+    position: absolute;
+    margin-left:50% ;
+}
+
+section .skewed{/*ligne qui cache l'image*/
+    position: absolute;
+    bottom: -40%;
+    Left:0;
+    width: 100%;
+    height: 40%;
+    background: #fff;
+    transform: skewY(-10deg);
+    transform-origin: top left ;
+
+}
+
+/*écrire a l'horizontal*/
+section .skewed .droit {
+    margin-top: 10%;
+    transform: skewY(190deg);
+}
+section .skewed p{
+    font-size: 3rem;
+}

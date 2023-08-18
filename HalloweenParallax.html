@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Halloween Paralax</title>
+    <link rel="stylesheet" href="css/HalloweenParallaxStyle.css">
+</head>
+<body>
+    <section>
+        <img src="images/bgMoon.jpg" id="bg">
+        <img src="images/bat.png" id="bat">
+        <img src="images/witch.png" id="witch">
+        <img src="images/caslte.png" id="caslte">
+        <img src="images/wolfHohling.png" id="wolf">
+    </section>
+    <div class="sec">
+        <div class="content">
+            <H2>Happy Halloween</H2>
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Aperiam corporis dolorem fugiat illum iste sapiente tenetur
+                voluptas? Adipisci, at, deleniti eius exercitationem minus modi
+                nam neque nobis non perspiciatis quae quo sed voluptas.
+                Ad corporis dolorum enim fugiat incidunt placeat quas
+                repellendus veritatis voluptatum. A asperiores atque aut
+                delectus deleniti distinctio eligendi eos eveniet maiores
+                natus placeat, quod rerum sequi tempora, ullam veritatis
+                voluptates. Ab accusamus accusantium adipisci alias, aliquid
+                aperiam atque corporis debitis eum exercitationem fugiat harum
+                incidunt iste laudantium libero modi, necessitatibus nesciunt
+                quisquam reiciendis sapiente similique veniam voluptates?
+                Accusamus blanditiis eius, enim et fugiat, id illo iure maiores
+                maxime, minus modi natus nihil officia repellat repudiandae sed
+                sint soluta suscipit totam voluptates! Accusamus ad animi aut
+                beatae, debitis delectus dolore doloremque ducimus ea eius eos
+                error fuga fugit iusto nam odio odit optio pariatur possimus
+                quidem saepe sit tenetur vel! A accusamus aspernatur et, eveniet
+                harum illo ipsam laborum nobis nostrum praesentium qui, quis
+                sint voluptate. Facilis impedit magni placeat praesentium quasi
+                quidem suscipit. A ab accusamus accusantium aspernatur assumenda
+                at distinctio ducimus, eius ex iste laboriosam molestias non
+                nulla obcaecati omnis optio quam quia quisquam quod quos
+                reiciendis repellendus repudiandae sapiente, sit soluta tempora
+                ullam vel? Delectus eaque excepturi maiores nam provident.
+                Atque cumque fuga minus quis suscipit! Ab accusantium at atque,
+                aut dicta dolorem ducimus exercitationem facere illum ipsam
+                libero magni nam non quasi quia sapiente tempora vitae voluptate!
+                Accusantium alias consectetur cumque deserunt doloremque dolorum
+                ea eaque, enim et expedita explicabo facilis id iure minus nam
+                nihil nobis nulla, pariatur placeat praesentium quo reiciendis
+                reprehenderit sint suscipit ut veniam voluptatibus. Ad adipisci
+                aliquid, animi aspernatur atque dolor dolorem ducimus, expedita
+                fugiat ipsa iure laboriosam laudantium minima odit officiis
+                optio quas quibusdam quis quo quos ratione repudiandae sed
+                suscipit temporibus totam. Laborum minus placeat unde!</p>
+
+                <a href="index.html">Back</a>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
+
+    <script>
+      gsap.to("#witch",{
+          scrollTrigger : {
+              scrub:0.5,
+          },
+          x : 1500,
+          y: 500
+      });
+
+      gsap.to("#wolf",{
+          scrollTrigger : {
+              scrub:0.5,
+          },
+          x : -100,
+      });
+
+      gsap.to("#bat",{
+          scrollTrigger : {
+              scrub:0.5,
+          },
+          y: -200,
+      });
+
+      gsap.to("#caslte",{
+          scrollTrigger : {
+              scrub:0.5,
+          },
+          x: 50,
+      });
+
+
+    </script>
+</body>
+</html>

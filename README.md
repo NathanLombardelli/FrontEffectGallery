@@ -6,7 +6,7 @@
 
 ## Description
 
-
+Projets regroupant plusieurs effects CSS/HTML et librairies.
 
 ## Collaborateurs
 

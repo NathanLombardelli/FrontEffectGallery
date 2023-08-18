@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Box border animate SVG</title>
+    <link rel="stylesheet" href="css/BoxBorderAnimateStyle.css">
+</head>
+<header>
+    <a href="index.html">Back</a>
+</header>
+<body>
+
+    <div class="container">
+        <div class="box">
+            <div class="content">
+                <h2>Water wave Div</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. hic illo in inventore iste laudantium magni modi molestiae nam necessitatibus optio perferendis praesentium provident recusandae reprehenderit sequi ut veniam, voluptate. Beatae expedita iste nobis odit optio tempora totam, vero voluptatum. Aspernatur aut culpa cupiditate, dolor eaque esse explicabo facilis ipsa, ipsum iure laudantium mollitia quae quisquam quo soluta unde voluptatem?</p>
+            </div>
+        </div>
+    </div>
+<svg>
+    <filter id="wavy">
+        <feTurbulence x="0" y="0" baseFrequency="0.02" numOctaves="5" seed="2">
+            <animate attributeName="baseFrequency" dur="60s"values="0.02;0.05;0.02" repeatCount="indefinite"/>
+        </feTurbulence>
+        <feDisplacementMap in="SourceGraphic" scale="30"/>
+    </filter>
+</svg>
+</body>
+</html>

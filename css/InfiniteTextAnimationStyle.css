@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url("https://i.pinimg.com/originals/e3/e2/c3/e3e2c3e58cfa2ce34e43e6c7347f4b49.jpg");
+    background-size: cover;
+}
+header{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+
+}
+
+header a{
+    color:#FFB400;
+
+}
+
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+section .scroll{
+    width:100%;
+    display:flex;
+}
+
+section .scroll div{
+    color:red;
+    font-size: 4em;
+    background: url("https://prodigits.co.uk/thumbs/wallpapers/p2ls/patterns/45/b807b92012630407.jpg");
+    white-space: nowrap;
+    font-weight: 900;
+    text-transform: uppercase;
+    animation: animate 40s linear infinite;
+    animation-delay: -40s;
+}
+
+section .scroll div:nth-child(2){
+    animation:  animate2 40s linear infinite;
+    animation-delay: -20s;
+}
+
+section .scroll div span {
+    -webkit-text-stroke: 2px red; /*crée un contour au text*/
+    color: transparent; /*on ne vois donc plus que le contour*/
+}
+
+
+@keyframes animate {
+
+    0%{
+        transform: translateX(100%) ;
+    }
+    100%{
+        transform: translateX(-100%) ;
+    }
+}
+
+@keyframes animate2 {
+
+    0%{
+        transform: translateX(0) ;
+    }
+    100%{
+        transform: translateX(-200%) ;
+    }
+}
+
+section .text1{
+    transform: rotate(30deg) translateY(200px) ;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
+section .text2{
+    transform: rotate(-25deg) translateY(120px) ;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
+section .text3{
+    transform: rotate(25deg) translateY(300px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
+section .text4{
+    transform: rotate(-2deg) translateY(-150px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
+section .text5{
+    transform: rotate(5deg) translateY(250px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
