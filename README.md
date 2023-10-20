@@ -8,11 +8,10 @@
 
 Projets regroupant plusieurs effects CSS/HTML et librairies.
 
-## Collaborateurs
 
-[Nathan Lombardelli](https://github.com/NathanLombardelli) <br>
+## Captures
 
 
-## Link
 
-lien ver la [page](https://nathanlombardelli.github.io/FrontEffectGallery/index.html)
+
+
