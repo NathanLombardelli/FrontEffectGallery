@@ -144,11 +144,6 @@ body{
     font-weight: 300;
 }
 
-.contactInfo .education em{
-    color:#ffffff;
-    font-weight: 100;
-}
-
 .contactInfo .langues .percent{
     position: relative;
     width: 100%;
